@@ -3,7 +3,7 @@ class NamedCow extends Cow
 	protected String myName;
 
 
-	public NamedCow(String name){
+	public NamedCow(String type,String name,String sound) {
 		myName=name;
 	}
 
